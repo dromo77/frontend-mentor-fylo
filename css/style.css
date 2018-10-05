@@ -1,5 +1,5 @@
 /****************************/
-/*** Reset ***/
+/*** Document Styles ***/
 /****************************/
 * {
     margin: 0;
@@ -14,8 +14,8 @@ body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    color: #3a4246;
-    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+    font-size: 14px;
     text-rendering: optimizeLegibility;
   
 }
@@ -33,8 +33,29 @@ body {
 }
 
 
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: hsl(0, 0%, 17%);
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: hsl(0, 0%, 17%);
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: hsl(0, 0%, 17%);
+}
+
+
 /****************************/
-/*** Header ***/
+/*** Hero ***/
 /****************************/
 
 .bg {
@@ -42,6 +63,7 @@ body {
     background-image: url(images/bg-intro-desktop.svg);
     background-repeat: no-repeat;
     background-position: right top;
+    margin-bottom: 10%;
 }
 
 .navbar {
@@ -96,11 +118,6 @@ body {
     margin-bottom: 2rem;
 }
 
-h1 {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
-}
-
 .hero-btn {
     background: hsl(163, 95%, 43%);
     padding: .75rem 3rem;
@@ -108,5 +125,45 @@ h1 {
     color: #ffffff;
     cursor: pointer;
 }
+
+/****************************/
+/*** Section 1 ***/
+/****************************/
+
+.bg-shape {
+    width: 100%;
+    height: 600px;
+    background: hsl(106, 0%, 98%);
+    border-radius: 30px;
+    transform: skew(-0.10turn, 8deg);
+}
+
+.sec-1 {
+    position: relative;
+    transform: translateY(-160%)
+}
+
+.txt-center {
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.row {
+    margin: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.col-3 {
+    text-align: center;
+}
+
+.icon {
+    height: 100px;
+    margin-bottom: 1.5rem;
+}
+
+
 
 
