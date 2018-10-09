@@ -12,22 +12,16 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-          
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
     
 <body>
-    <!-- Hero -->
+    <!-- Start Header -->
     <header class="bg">
         <div class="clearfix">
             <nav class="navbar">
                 <div>
-                    <a href="index.html"><img src="images/logo.svg" alt="Fylo" class=" float-left logo"></a>
+                    <a href="index.html"><img src="images/logo.svg" alt="Fylo" class="float-left logo"></a>
                 </div>
                 <div class="float-right">
                     <ul class="nav">
@@ -41,19 +35,28 @@
             <div class="hero-txt">
                 <h1>All your files in one secure location, accessible anywhere.</h1>
                 <p>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
-                <btn class="hero-btn">Get Started</btn>
+                <button type="button">Get Started</button>
             </div>
-            <div class="hero-img">
-                <img src="images/illustration-main.svg" alt="files">
+            <div class="mobile-illustration">
+                <img src="images/illustration-main.svg" class="hero-img" alt="files">
             </div>
         </div>
     </header>
+    <!-- End Hero -->
     
-    <!-- Section 1 -->
-    <section>
-        <div class="bg-shape"></div>
-        <div class="sec-1">
-             <div class="txt-center">
+    <!-- Start Main -->
+    <main class="container">
+        
+        
+        
+        <!-- Start Section 1 -->
+        <section class="sec-1">
+            <div class="bg-shape">
+                 <svg width="1700" height="1100">
+                    <rect width="1500" height="800" rx="20" ry="20" style="fill:hsl(106, 0%, 98%)" transform="rotate(12) skewX(-20) translate(200 -50)" /> 
+                </svg>
+            </div>
+            <div class="txt-center">
                 <h2>Stay productive, wherever you are</h2>
                 <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
             </div>
@@ -71,86 +74,165 @@
                     <h3> Real-time collaboration</h3>
                 </div>
             </div>
-        </div>
-       
+        </section>
+        <!-- End Section 1 -->
+   
         
-    </section>
-  
+        
+        <!-- Start Section 2 -->
+        <section class="sec-2">
+            <div class="sec-2-txt">
+                <h2>Connect with the apps you use everyday</h2>
+                <p>Fylo seamlessly integrates with hundreds of apps, meaning you can access and work on your files from the apps you already know and love.</p>
+            </div>
+            <!-- Start Grid -->
+            <div class="card-grid">
+            <!-- Column 1 -->
+                <div class="card-col-1">
+                    <div class="card">
+                        <div class="card-top">
+                            <img src="images/logo-slack.png" alt="slack logo" class="app-logo">
+                        </div>
+                        <div class="card-bottom">
+                            <h4>Slack</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <img src="images/logo-asana.png" alt="assana logo" class="app-logo">
+                        </div>
+                        <div class="card-bottom">
+                            <h4>Asana</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Column 1 -->
+                <!-- Column 2 -->
+                 <div class="card-col-2">
+                    <div class="card">
+                        <div class="card-top">
+                            <img src="images/logo-gsuite.png" alt="gsuite logo" class="app-logo">
+                        </div>
+                        <div class="card-bottom">
+                            <h4>GSuite</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <img src="images/logo-salesforce.png" alt="salesforce logo" class="app-logo">
+                        </div>
+                        <div class="card-bottom">
+                             <h4>Salesforce</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.</p>
+                        </div>
+                    </div>   
+                </div>
+                <!-- End Column 2 -->
+                <!-- Start Column 3 -->
+                <div class="card-col-3">
+                    <div class="card">
+                        <div class="card-top">
+                            <img src="images/logo-trello.png" alt="trello logo" class="app-logo">
+                        </div>
+                        <div class="card-bottom">
+                            <h4>Trello</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <img src="images/logo-typeform.png" alt="typeform logo" class="app-logo">
+                        </div>
+                        <div class="card-bottom">
+                            <h4>Typeform</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Column 3 -->            
+            </div>
+            <!-- End Grid --> 
+        </section>
+        <!-- End Section 2 -->
+        
+      
+        
+         <!-- Start Section 3 -->
+        <section class="sec-3">
+            <div>
+                <h2>Start using Fylo today</h2>
+                <p class="spacer">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+                <button type="button" >Get Started</button>
+            </div>
+        </section>
+        <!-- End Section 3 -->
+        
+        
+        
+    </main>
+    <!-- End Main -->
 
+       
+    <!-- Start Footer -->
+    <footer class="footer">
+        <a href="index.html"><img src="images/logo_inverse.svg" alt="Fylo" class="logo"></a>
+        <div class="row-footer">
+            <div class="footer-col-1">
+                <h5>Receive updates from us, including tips and tricks on how to improve your workflow.</h5>
+                <div class="contact-form clearfix">
+                    <div class="input">
+                        <input type="text">
+                    </div>
+                    <div class="float-left footer-btn">
+                        <p>Join</p>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="contact">
+                        <img src="images/icon-phone.svg" alt="phone" class="icon-footer">
+                        <p>Phone: +1-543-123-4567</p>
+                    </div>
+                    <div class="contact">
+                        <img src="images/icon-email.svg" alt="email" class="icon-footer">
+                        <p> example@fylo.com</p>
+                    </div>
+                </div> 
+            </div>
+            <div>
+                <h5>Fylo</h5>
+                <ul class="footer-list">
+                    <li>Desktop App</li>
+                    <li>Mobile App</li>
+                    <li>Pricing</li>
+                    <li>Feature</li>
+                </ul>
+            </div>
+            <div>
+                <h5>Company</h5>
+                <ul class="footer-list">
+                    <li>About Us</li>
+                    <li>Jobs</li>
+                    <li>Press</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div>
+                <h5>Support</h5>
+                <ul class="footer-list">
+                    <li>Contact Us</li>
+                    <li>Terms</li>
+                    <li>Privacy</li>
+                </ul>
+            </div>
+        </div>
+        <p class="attribution">
+          This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
+        </p>
+    </footer>
+    <!-- End Footer -->
 
-
-  <!--
-
-
-
-  
-
-  
-
- 
-
-  Connect with the apps you use everyday
-
-  Fylo seamlessly integrates with hundreds of apps, meaning you can access and 
-  work on your files from the apps you already know and love.
-
-  Slack
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-
-  GSuite
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-
-  Trello
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-
-  Asana
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-
-  Salesforce
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-
-  Typeform
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-
-  Start using Fylo today
-
-  It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
-  questions, our support team would be happy to help you.
-
-  Get Started
-
-  Receive updates from us, including tips and tricks on how to improve your workflow.
-
-  Join
-
-  Phone: +1-543-123-4567
-
-  example@fylo.com
-
-  Fylo
-
-  Desktop App
-  Mobile App
-  Pricing
-  Feature
-
-  Company
-
-  About Us
-  Jobs
-  Press
-  Blog
-
-  Support
-
-  Contact Us
-  Terms
-  Privacy -->
-
-  <footer>
-    <p class="attribution">
-      This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
-    </p>
-  </footer>
 </body>
 </html>
